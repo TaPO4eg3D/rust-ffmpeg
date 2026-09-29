@@ -89,6 +89,18 @@ build-lib-x265             = ["ffmpeg-sys-next/build-lib-x265"]
 build-lib-avs              = ["ffmpeg-sys-next/build-lib-avs"]
 build-lib-xvid             = ["ffmpeg-sys-next/build-lib-xvid"]
 
+# hardware accelleration
+build-videotoolbox = ["ffmpeg-sys-next/build-videotoolbox"]
+build-audiotoolbox = ["ffmpeg-sys-next/build-audiotoolbox"]
+build-vaapi	       = ["ffmpeg-sys-next/build-vaapi"]
+build-lib-d3d11va  = ["ffmpeg-sys-next/build-lib-d3d11va"]
+build-lib-dxva2    = ["ffmpeg-sys-next/build-lib-dxva2"]
+build-nvidia       = ["ffmpeg-sys-next/build-nvidia"]
+build-lib-libmfx   = ["ffmpeg-sys-next/build-lib-libmfx"]
+build-mediacodec   = ["ffmpeg-sys-next/build-mediacodec"]
+build-amf          = ["ffmpeg-sys-next/build-amf"]
+build-vulkan       = ["ffmpeg-sys-next/build-vulkan"]
+
 # protocols
 build-lib-smbclient = ["ffmpeg-sys-next/build-lib-smbclient"]
 build-lib-ssh       = ["ffmpeg-sys-next/build-lib-ssh"]
